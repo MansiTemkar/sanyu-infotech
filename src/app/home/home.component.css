@@ -1,0 +1,305 @@
+
+/* ========== Services Section Styling ========== */
+.services {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Service Title */
+.services-title {
+    color: #e65c00; 
+    
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+.services-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #555;
+}
+
+/* Floating Line */
+.floating-line {
+    width: 80px;
+    height: 4px;
+    background-color: #e65c00;
+    margin-top: 5px;
+    animation: floatLine 1.5s infinite alternate ease-in-out;
+}
+.center-box {
+    width: 30%;
+    margin: 0 auto 20px auto; /* Centers the div */
+    text-align: center;
+    background-color: #ff4d00;
+}
+
+@keyframes floatLine {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(5px); }
+}
+
+/* ========== Service Cards Styling ========== */
+.service-card {
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+/* Hover Effect */
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-color: #e65c00;
+}
+
+/* Icons */
+.service-card i {
+    color: #e65c00;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Service Card Titles */
+.service-title {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+.count-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+    gap: 75px; 
+}
+
+.icon-box {
+    background: #ff6600; 
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+
+
+
+/* ========== Mobile Responsive Adjustments ========== */
+@media (max-width: 768px) {
+    .services {
+        padding: 30px 10px;
+    }
+
+    .service-card {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .services-title {
+        font-size: 26px;
+    }
+
+    .services-subtitle {
+        font-size: 16px;
+    }
+
+    .service-title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .why-choose-us .text-center{
+        margin-top: 30px;
+    }
+
+    .carousel{
+        margin-top: 60px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Styles */
+.why-choose-us {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+/* Image Styling */
+.why-choose-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title & Subtitle */
+.why-choose-us h2 {
+    color: #ff4d00;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.why-choose-us h3 {
+    font-size: 1.25rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Small Orange Accent Line */
+.why-choose-us .accent-line {
+    width: 60px;
+    height: 4px;
+    background-color: #ff4d00;
+    margin: 10px auto 30px;
+}
+
+/* Feature Section */
+.why-choose-us .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+/* Feature Icon Box */
+.why-choose-us .icon-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us .icon-box i {
+    font-size: 1.5rem;
+    color: #ff4d00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .why-choose-us {
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .why-choose-us h2,
+    .why-choose-us h3 {
+        text-align: center;
+    }
+
+    .why-choose-us .feature-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .why-choose-us .icon-box {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust Image */
+    .why-choose-us img {
+        max-width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Larger Screens */
+@media (min-width: 769px) {
+    .why-choose-us {
+        text-align: left;
+    }
+
+    .why-choose-us h2,
+    .why-choose-us h3 {
+        text-align: left;
+    }
+
+    .why-choose-us .feature-item {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .why-choose-us img {
+        max-width: 100%;
+        height: auto;
+    }
+}

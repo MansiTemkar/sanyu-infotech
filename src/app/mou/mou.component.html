@@ -1,0 +1,50 @@
+<!-- main box -->
+<div class="container-fluid bg-mou"
+    style=" background: linear-gradient(rgba(78, 79, 79, 0.18), rgba(2, 7, 16, 0.7)), url(assets/images/mou.png) center center no-repeat; background-size: cover;">
+    <div class="row py-5">
+        <div class="col-12 pt-lg-5 mt-lg-5 text-center animate__animated animate__fadeIn">
+
+            <h1 style="line-height: 1.0;">MOU Signed with Colleges</h1>
+            <p style="color: white; font-size: 17px; max-width: 100%;">We are thrilled to announce our Memorandum of
+                Understanding
+                with top colleges.This collaboration is designed to inspire innovation, enhance learning
+                opportunities,
+                and foster growth. Together, we are committed to enriching educational experiences and shaping a
+                future of excellence.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container ">
+
+    <h3 class="fw-bold" style="margin-top: 60px; text-align: center; font-size: 35px; margin-bottom: 50px;">List of
+        collages we have collaborated</h3>
+
+    <div class="center-box"
+        style="width: 25%; text-align: center; margin-bottom: 60px; background-color: #ff4d00; margin-top: -28px;">
+        <div class="motion-line"> </div>
+
+
+    </div>
+    <!--List-->
+
+<section id="list-section" class="bg-white text-dark text-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div *ngFor="let item of mouList; let i = index" class="d-grid gap-2 mt-3">
+                <button class="btn d-flex justify-content-between align-items-center" type="button" (click)="toggleImage(i)">
+                    <span class="text-start">{{ item.title }}</span>
+                    <i [class]="activeIndex === i ? 'fa-solid fa-chevron-up' : 'fa-solid fa-chevron-down'"></i>
+                </button>
+                <div class="col-lg-4 col-12 mx-auto img-container">
+                    <div class="image-container mt-3 shadow rounded" *ngIf="activeIndex === i" style="border: 2px solid #FF6A01;">
+                        <img [src]="item.image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    

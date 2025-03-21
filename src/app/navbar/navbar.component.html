@@ -1,0 +1,33 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg custom-navbar fixed-top navbar-light bg-light">
+    <a class="navbar-brand d-flex align-items-center" routerLink="/home">
+        <img src="assets/images/logo.jpeg" alt="Logo" class="logo">
+        <span class="ml-2" style="font-size: 30px;">Sanyu Infotech</span>
+    </a>
+
+    <!-- Toggle Button -->
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Items -->
+    <div class="collapse navbar-collapse" [ngClass]="{'show': isNavbarOpen}" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/home" (click)="isNavbarOpen = false" [ngClass]="{'active': isActive('/home')}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/about" (click)="isNavbarOpen = false" [ngClass]="{'active': isActive('/about')}">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/services" (click)="isNavbarOpen = false" [ngClass]="{'active': isActive('/services')}">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/mou" (click)="isNavbarOpen = false" [ngClass]="{'active': isActive('/mou')}">MOU with Colleges</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/contact" (click)="isNavbarOpen = false" [ngClass]="{'active': isActive('/contact')}">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>

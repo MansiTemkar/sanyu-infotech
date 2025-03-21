@@ -1,0 +1,112 @@
+.navbar {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #ffffff;
+    /* White background */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.navbar-brand {
+    font-size: 21px;
+    font-weight: bold;
+    color: #000;
+   
+}
+
+
+.navbar-nav .nav-item .nav-link .active {
+    color: #ff6600;
+}
+
+.navbar-nav .nav-item{
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-size: 18px;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff6600;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.nav-link.active {
+    color: #ff4d00 !important;
+    font-weight: bold;
+}
+
+
+/* Small Screens - 360px */
+@media (max-width: 360px) {
+    .custom-navbar {
+        padding: 6px 10px;
+    }
+
+    .container-fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Logo and Brand Text */
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .logo {
+        height: 28px;
+    }
+
+    .navbar-toggler {
+        border: none;
+        background: transparent;
+        padding: 4px;
+        position: absolute;
+        right: 10px; /* Position to the right */
+        top: 10px; /* Adjust for proper alignment */
+    }
+
+    .navbar-toggler-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Navbar Collapse */
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 8px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    /* Navbar Links */
+    .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 6px;
+    }
+}

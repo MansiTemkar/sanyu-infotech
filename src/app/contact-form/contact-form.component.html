@@ -1,0 +1,29 @@
+<div class="col-lg-12">
+    <form #contactForm="ngForm" (ngSubmit)="submitForm()">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <input type="text" [(ngModel)]="contact.name" name="name"
+                    class="form-control border-1 bg-light px-4" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6">
+                <input type="email" [(ngModel)]="contact.email" name="email"
+                    class="form-control border-1 bg-light px-4" placeholder="Your Email" required>
+            </div>
+            <div class="col-12">
+                <input type="text" [(ngModel)]="contact.subject" name="subject"
+                    class="form-control border-1 bg-light px-4" placeholder="Subject" required>
+            </div>
+            <div class="col-12">
+                <textarea [(ngModel)]="contact.message" name="message"
+                    class="form-control border-1 bg-light px-4 py-3" rows="4" placeholder="Message" required>
+                </textarea>
+            </div>
+            <div class="col-12">
+                <button class="btn w-100 py-3 fw-bold shadow"
+                    style="background-color: #ff4d00; color: white;" type="submit">
+                    Send Message
+                </button>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,11 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px; /* Adjust font size */
+    
+}
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+

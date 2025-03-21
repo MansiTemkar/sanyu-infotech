@@ -1,0 +1,63 @@
+/* main box */
+.bg-about h1 {
+    margin-top: 80px;
+    font-size: 50px;
+    color: white;
+}
+
+/* Motion Line */
+.motion-line {
+    position: relative;
+    top: 10%;
+    left: 0;
+    width: 12px;
+    height: 4px;
+    background: rgb(240, 240, 240);
+    animation: moveLine 2s linear infinite;
+    color: #0b0b0b;
+}
+
+.center-box {
+    width: 30%;
+    margin: 0 auto 20px auto; /* Centers the div */
+    text-align: center;
+    background-color: #ff4d00;
+}
+
+@keyframes moveLine {
+    from {
+        left: 0;
+        opacity: 1;
+    }
+    to {
+        left: 100%;
+        opacity: 1;
+    }
+}
+
+/* featurette */
+.aboutfeaturette h4 {
+    color: #ff4d00;
+}
+
+.aboutfeaturette h3 {
+    color: #000000;
+    font-size: 37px;
+}
+
+.aboutfeaturette p {
+    font-weight: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+/* why snayu */
+.marketing {
+    background-color: lightgrey;
+    margin-top: 100px;
+}
+
+.marketing .row {
+    margin-top: 100px;
+}
