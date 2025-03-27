@@ -1,7 +1,7 @@
 <div class="homepage">
     <!--Slider-->
     <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="height: 650px;">
           <div class="carousel-item active">
             <img src="assets/images/img1.png" class="d-block w-100" alt="Images">
           </div>
@@ -25,93 +25,108 @@
         </button>
       </div>
     
-      <section class="py-5">
-        <div class="container text-center">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-4 bg-light rounded shadow d-flex align-items-center count-box">
-                        <i class="fa-solid fa-people-line fa-2x me-3 icon-box"></i>
-                        <div>
-                            <h1 class="fs-2" data-toggle="counter-up">58</h1>
-                            <p class="mb-0">Happy Clients</p>
-                        </div>
-                    </div>
+      <div class="container mt-4" >
+        <div class="count card-group" style="gap: 25px;">
+          <div class=" card shadow text-light animation bg-light" >
+            <div class="card-body  d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+              <!-- <div class="shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;"> -->
+                <div class=" d-flex align-items-center justify-content-center rounded mb-2"
+                  style="width: 60px; height: 60px; background-color: #ff4d00;">
+                  <i class="fa fa-users" style="color:white"></i>
                 </div>
+                <div class="ps-4">
+                  <h5 class="text-dark mb-0">&nbsp;&nbsp;Happy Clients</h5>
+                  <h1 class="text-dark mb-0 fw-bold" data-toggle="counter-up">&nbsp;57</h1>
+                </div>
+              </div>
+            <!-- </div> -->
     
-                <div class="col-lg-4 col-md-6">
-                    <div class="p-4 bg-light rounded shadow d-flex align-items-center count-box">
-                        <i class="fa-solid fa-check-double fa-2x me-3 icon-box"></i>
-                        <div>
-                            <h1 class="fs-2" data-toggle="counter-up">75</h1>
-                            <p class="mb-0">Projects Done</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="card animation bg-light" style="border: 20px;">
     
-                <div class="col-lg-4 col-md-12">
-                    <div class="p-4 bg-light rounded shadow d-flex align-items-center count-box">
-                        <i class="fa-solid fa-award fa-2x me-3 icon-box"></i>
-                        <div>
-                            <h1 class="fs-2" data-toggle="counter-up">5</h1>
-                            <p class="mb-0">Win Awards</p>
-                        </div>
-                    </div>
+            <div class="card-body border-0 shadow d-flex align-items-center justify-content-center p-4" style="height: 150px; ">
+              <!-- <div class="bg-light d-flex align-items-center justify-content-center p-4" style="height: 150px;"> -->
+                <div class="d-flex align-items-center justify-content-center rounded mb-2"
+                  style="width: 60px; height: 60px; background-color: #ff4d00;">
+                  <i class="fa fa-check text-white"></i>
                 </div>
+                <div class="ps-4">
+                  <h5 class=" text-dark mb-0" style="color: orange;">&nbsp;&nbsp;Projects Done</h5>
+                  <h1 class="mb-0 text-dark fw-bold" data-toggle="counter-up">&nbsp;73</h1>
+                </div>
+              <!-- </div> -->
             </div>
+    
+          </div>
+          <div class="card text-light shadow animation bg-light">
+    
+            <div class="card-body  d-flex align-items-center  justify-content-center p-4" style="height: 150px;">
+              <!-- <div class="shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;"> -->
+                <div class="d-flex align-items-center justify-content-center rounded mb-2"
+                  style="width: 60px; height: 60px; background-color: #ff4d00;;">
+                  <i class="fa fa-award" style="color:white"></i>
+                </div>
+                <div class="ps-4">
+                  <h5 class="text-dark mb-0">&nbsp;&nbsp;Win Awards</h5>
+                  <h1 class="text-dark mb-0 fw-bold" data-toggle="counter-up">&nbsp;5</h1>
+                </div>
+              <!-- </div> -->
+    
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
     
     
     <!-- About Us Section -->
-    <section class="aboutus py-5" style="background: linear-gradient(135deg, #fff, #fdf2f0);">
+    <section class="aboutus py-5 bg-light mt-5">
         <div class="container">
             <div class="row align-items-center">
                 
                 <!-- Image Column (Desktop: Right | Mobile: Top) -->
-                <div class="col-lg-6 order-lg-2 text-center mb-4">
-                    <img src="assets/images/aboutUs.jpg" class="img-fluid rounded shadow-lg"
-                        alt="About Us Image" style="max-width: 90%; border-radius: 20px;">
+                <div class="col-lg-5 order-lg-2 text-center mb-4  animation">
+                    <img src="assets/images/aboutUs.jpg" class="img-fluid rounded shadow"
+                        alt="About Us Image" style="max-width: 90%; border-radius: 20px; height: 450px;">
                 </div>
     
                 <!-- Text Column -->
-                <div class="col-lg-6 order-lg-1">
-                    <h2 class="fw-bold text-uppercase" style="color: #ff4d00; font-size: 28px;">About Us</h2>
-                    <h3 class="fs-4 text-dark">Sanyu Infotech Private Limited</h3> 
-                    <h3 class="fs-5 text-muted">Empowering Careers with 10+ Years of Excellence 001</h3>
-                    
-                    <!-- Accent Line -->
-                    <div class="my-3" style="width: 60px; height: 4px; background-color: #ff4d00;"></div>
-    
-                    <p class="fs-5 text-secondary" style="line-height: 1.6;">
-                        At Sanyu Infotech, we believe in nurturing talent and building successful careers. 
-                        Our courses and internships provide hands-on experience in cutting-edge technologies. 
-                        We prepare aspiring professionals with the skills to thrive in the IT industry.  
-                        <strong>Join us today and kickstart your dream career!</strong>
+                <div class="col-lg-7 order-lg-1  animation">
+                    <h5 class="fw-bold text-uppercase fs-5 h5" style="color: #ff4d00;">About Us</h5>
+                    <h2 class="fs-3" style="line-height: 1.2;">Sanyu Infotech Private Limited – Empowering Careers with 10+ Years of Excellence</h2>
+                    <div style="width: 25%; margin-bottom: 20px; background-color: #ff4d00;">
+                        <div class="motion-line"> </div>
+                    </div>
+                    <p class="text-muted">
+                      At Sanyu Infotech Private Limited, we believe in nurturing talent and building successful careers.
+                      We offer a comprehensive range of courses and internships designed to provide hands-on experience
+                      and in-depth knowledge in the latest technologies. Our programs are crafted to empower aspiring
+                      professionals with the skills they need to excel in the IT industry. Join us and take the first
+                      step towards a rewarding career!
                     </p>
     
                     <!-- Features Grid -->
-                    <div class="row mt-4">
+                    <div class="row mt-4 animation" >
                         <div class="col-md-6 mb-3">
                             <div class="p-3 shadow-sm rounded bg-white d-flex align-items-center">
-                                <i class="fa-solid fa-award fa-2x me-3" style="color: #ff4d00;"></i>
+                                <i class="fa-solid fa-award fa-2x me-3" style="color:#ff4d00;"></i>
                                 <span class="fw-bold">Award-Winning Training</span>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-6 mb-3 animation">
                             <div class="p-3 shadow-sm rounded bg-white d-flex align-items-center">
                                 <i class="fa-solid fa-headset fa-2x me-3" style="color: #ff4d00;"></i>
                                 <span class="fw-bold">24/7 Support</span>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-6 mb-3 animation">
                             <div class="p-3 shadow-sm rounded bg-white d-flex align-items-center">
-                                <i class="fa-solid fa-user-tie fa-2x me-3" style="color: #ff4d00;"></i>
+                                <i class="fa-solid fa-user-tie fa-2x me-3" style="color:#ff4d00;"></i>
                                 <span class="fw-bold">Expert Mentors & Guidance</span>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-6 mb-3 animation">
                             <div class="p-3 shadow-sm rounded bg-white d-flex align-items-center">
-                                <i class="fa-solid fa-handshake fa-2x me-3" style="color: #ff4d00;"></i>
+                                <i class="fa-solid fa-handshake fa-2x me-3" style="color:#ff4d00;"></i>
                                 <span class="fw-bold">Fair & Transparent Pricing</span>
                             </div>
                         </div>
@@ -123,95 +138,118 @@
     </section>
     
     
-    
-    <!-- Services Section -->
-    <div class="container-fluid services">
+    <!-- Our Services Section  -->
+    <div class="container" style="margin-top: 70px;">
         <section class="py-xl-14 py-10">
-            <div class="container px-4 px-lg-0">
+            <div class="container px-4 px-lg-0 ">
                 <div class="row justify-content-center text-center">
                     <div class="col-xl-6 col-md-12">
-                        <h2 class="fw-bold display-3 services-title">
-                            Our Services
-                        </h2>
-                        <h5 class="services-subtitle">
-                            Custom IT Solutions for Your<br> Successful Business
-                        </h5>
-                        <div class="floating-line center-box"></div> <!-- Floating Line Animation -->
+                        <h2 class="fw-bold display-3 animation"
+                            style="color: #ff4d00; font-weight: 600; font-size: 30px; margin-bottom: 5px;">
+                            Our Services</h2>
+                        <b>
+                            <h2 class="fs-3 animation" style="line-height: 1.3;">
+                                Custom IT Solutions for Your<br> Successful Business
+                            </h2>
+                        </b>
+                     
+                       
+                            <div class="center-box"
+                                style="width: 25%; text-align: center; margin-top: 16px;margin-bottom: 60px; background-color: #ff4d00;">
+                                <div class="motion-line"> </div>
+                            </div>
+                       
+                    </div>
+                       
                     </div>
                 </div>
     
-                <div class="row gy-3 mt-4">
+                <div class="row gy-3">
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card service-card text-center p-3">
-                            <i class="fa-solid fa-code fa-2x icon-style"></i>
-                            <h4 class="service-title">Software Development</h4>
-                            <p>Build robust full-stack applications using Java, Python, and MERN stack.</p>
+                        <div class="card bg-white card-lift p-2 d-flex flex-column animation" style="min-height: 200px;">
+                            <div class="card-body text-center d-flex flex-column">
+                                <i class="fa-solid fa-code fa-2x" style="color:#ff4d00;"></i>
+                                <h4 class="fw-bold"  style="margin-top: 20px; margin-bottom: 10px; font-size: 22px;">Software Development
+                                </h4>
+                                <p style="font-size: 19px; line-height: 1.3;">Build robust full-stack applications using Java, Python, and MERN stack.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card service-card text-center p-3">
-                            <i class="fa-solid fa-gear fa-2x icon-style"></i>
-                            <h4 class="service-title">Testing & Quality Analysis</h4>
-                            <p>Master automation with Selenium and ensure software reliability.</p>
+                        <div class="card bg-white card-lift p-2 d-flex flex-column animation" style="min-height: 200px;">
+                            <div class="card-body text-center d-flex flex-column">
+                                <i class="fa-solid fa-gear fa-2x" style="color:#ff4d00;"></i>
+                                <h4 class="fw-bold"  style="margin-top: 20px; margin-bottom: 10px; font-size: 22px;">Testing & Quality
+                                    Analysis</h4>
+                                <p style="font-size: 19px; line-height: 1.3;">Master automation with Selenium and ensure software reliability.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card service-card text-center p-3">
-                            <i class="fa-solid fa-code-branch fa-2x icon-style"></i>
-                            <h4 class="service-title">Cloud Computing</h4>
-                            <p>Learn AWS solutions for scalable and cost-effective cloud deployment.</p>
+                        <div class="card bg-white card-lift p-2 d-flex flex-column animation" style="min-height: 200px;">
+                            <div class="card-body text-center d-flex flex-column">
+                                <i class="fa-solid fa-code-branch fa-2x" style="color:#ff4d00;"></i>
+                                <h4 class="fw-bold"  style="margin-top: 20px; margin-bottom: 10px; font-size: 22px;">Cloud Computing</h4>
+                                <p style="font-size: 19px; line-height: 1.3;">Learn AWS solutions for scalable and cost-effective cloud deployment.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card service-card text-center p-3">
-                            <i class="fa-solid fa-sitemap fa-2x icon-style"></i>
-                            <h4 class="service-title">DevOps Solutions</h4>
-                            <p>Streamline development with CI/CD automation and collaboration tools.</p>
+                        <div class="card bg-white card-lift p-2 d-flex flex-column animation" style="min-height: 200px;">
+                            <div class="card-body text-center d-flex flex-column">
+                                <i class="fa-solid fa-sitemap fa-2x" style="color:#ff4d00;"></i>
+                                <h4 class="fw-bold"  style="margin-top: 20px; margin-bottom: 10px; font-size: 22px;">DevOps Solutions</h4>
+                                <p style="font-size: 19px; line-height: 1.3;">Streamline development with CI/CD automation and collaboration tools.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card service-card text-center p-3">
-                            <i class="fa-solid fa-circle-nodes fa-2x icon-style"></i>
-                            <h4 class="service-title">Data Analytics</h4>
-                            <p>Analyze large datasets using modern analytics and data processing tools.</p>
+                        <div class="card bg-white card-lift p-2 d-flex flex-column animation" style="min-height: 200px;">
+                            <div class="card-body text-center d-flex flex-column">
+                                <i class="fa-solid fa-circle-nodes fa-2x" style="color:#ff4d00;"></i>
+                                <h4 class="fw-bold"  style="margin-top: 20px; margin-bottom: 10px; font-size: 22px;">Data Analytics</h4>
+                                <p style="font-size: 19px; line-height: 1.3;">Analyze large datasets using modern analytics and data processing tools.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card service-card text-center p-3">
-                            <i class="fa-solid fa-star-of-life fa-2x icon-style"></i>
-                            <h4 class="service-title">AI & ML</h4>
-                            <p>Develop intelligent AI-driven applications and predictive models.</p>
+                        <div class="card bg-white card-lift p-2 d-flex flex-column animation" style="min-height: 200px;">
+                            <div class="card-body text-center d-flex flex-column">
+                                <i class="fa-solid fa-star-of-life fa-2x" style="color:#ff4d00;"></i>
+                                <h4 class="fw-bold"  style="margin-top: 20px; margin-bottom: 10px; font-size: 22px;">AI & ML</h4>
+                                <p style="font-size: 19px; line-height: 1.3;">Develop intelligent AI-driven applications and predictive models.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+          
         </section>
     </div>
     
+    
     <!-- Why Choose Us Section -->
     <!-- Why Choose Us Section -->
-    <section class="why-choose-us py-5" style="background-color: #f8f9fa;">
+    <section class="why-choose-us py-5 bg-light" style="margin-top: 100px;">
         <div class="container">
             <div class="row align-items-center">
                 
                 <!-- Left Image Section -->
-                <div class="col-lg-6 col-md-12 text-center">
-                    <img src="assets/images/feature.png" class="img-fluid shadow-lg rounded" alt="Why Choose Us" style="max-width: 90%; height: 450px;">
+                <div class="col-lg-5 col-md-12 text-center animation">
+                    <img src="assets/images/feature.png" class="img-fluid shadow-lg rounded" alt="Why Choose Us" style="max-width: 100%; height: 500px;">
                 </div>
     
                 <!-- Right Content Section -->
-                <div class="col-lg-6 col-md-12">
-                    <h2 class="fw-bold text-uppercase text-lg-start text-center" style="color: #ff4d00;">Why Choose Us</h2>
-                    <h3 class="fs-4 text-dark text-lg-start text-center">Transforming Businesses with Cutting-Edge IT Solutions</h3>
-    
-                    <!-- Accent Line -->
-                    <div class="mb-4 mx-lg-0 mx-auto" style="width: 60px; height: 4px; background-color: #ff4d00;"></div>
-    
+                <div class="col-lg-7 col-md-12 animation">
+                    <h5 class="fw-bold text-uppercase fs-5 h5 animation" style="color: #ff4d00;">WHY CHOOSE US ?</h5>
+                    <h2 class="fs-3 animation" style="line-height: 1.2;">Transforming Businesses with Cutting-Edge IT Solutions</h2>
+                    <div style="width: 25%; margin-bottom: 20px; background-color: #ff4d00;">
+                        <div class="motion-line"> </div>
+                    </div>
                     <!-- Feature List -->
                     <div class="d-flex flex-column gap-3">
                         
                         <!-- Feature 1 -->
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center animation">
                             <div class="icon-box d-flex align-items-center justify-content-center me-3">
                                 <i class="fa-solid fa-cubes fa-2x" style="color: #ff4d00;"></i>
                             </div>
@@ -222,7 +260,7 @@
                         </div>
     
                         <!-- Feature 2 -->
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center animation">
                             <div class="icon-box d-flex align-items-center justify-content-center me-3">
                                 <i class="fa-solid fa-award fa-2x" style="color: #ff4d00;"></i>
                             </div>
@@ -233,7 +271,7 @@
                         </div>
     
                         <!-- Feature 3 -->
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center animation">
                             <div class="icon-box d-flex align-items-center justify-content-center me-3">
                                 <i class="fa-solid fa-users-cog fa-2x" style="color: #ff4d00;"></i>
                             </div>
@@ -244,7 +282,7 @@
                         </div>
     
                         <!-- Feature 4 -->
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center animation">
                             <div class="icon-box d-flex align-items-center justify-content-center me-3">
                                 <i class="fa-solid fa-phone fa-2x" style="color: #ff4d00;"></i>
                             </div>
@@ -264,133 +302,128 @@
     
     <!-- Request A Quote -->
     
-    <div class="container-fluid " style="margin-top: 50px;">
+    <div class="container-fluid" style="margin-top: 20px;">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-5">
-                        <h2 class="fw-bold display-5 my-4" style="color: #ff4d00; font-weight: 600; font-size: 30px; ">
-                            Request a Quote</h2>
-                        <h2 class="mb-0">Looking for expert IT training? Get in touch with us today for customized
-                            training solutions tailored to your needs.</h2>
-                        <div
-                            style="width: 30%; text-align: center; margin-top: 12px;margin-bottom: -20px; background-color: #ff4d00;">
-                            <div class="motion-line"> </div>
+                    <div class="section-title position-relative pb-3 mb-5 animation">
+                        <h2 class="fw-bold display-5 my-4" style="color: #ff4d00; font-weight: 600; font-size: 30px;">
+                            Request a Quote
+                        </h2>
+                        <h2 class="mb-0 fs-3 animation">
+                            Looking for expert IT training? Get in touch with us today for customized training solutions tailored to your needs.
+                        </h2>
+                        <div style="width: 30%; text-align: center; margin-top: 12px; margin-bottom: -20px; background-color: #ff4d00;">
+                            <div class="motion-line"></div>
                         </div>
                     </div>
                     <div class="row gx-3">
                         <div class="col-sm-6">
-                            <h5 class="mb-4 fw-bold" style="font-size: 17px;"><i class="fa fa-reply me-3" style="color: #ff4d00;"></i>Reply
-                                within 24
-                                hours</h5>
+                            <h5 class="mb-4 fw-bold animation" style="font-size: 17px;">
+                                <i class="fa fa-reply me-3" style="color: #ff4d00;"></i>Reply within 24 hours
+                            </h5>
                         </div>
-                        <div class="col-sm-6 wow zoomIn">
-                            <h5 class="mb-4 fw-bold" style="font-size: 17px;"> <i class="fa-solid fa-phone  me-3" style="color: #ff4d00;"></i>24
-                                hrs
-                                telephone support</h5>
+                        <div class="col-sm-6">
+                            <h5 class="mb-4 fw-bold animation" style="font-size: 17px;">
+                                <i class="fa-solid fa-phone me-3" style="color: #ff4d00;"></i>24 hrs telephone support
+                            </h5>
                         </div>
                     </div>
-                    <p class="mb-4" style="font-size: 19px; line-height: 1.3;">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing
-                        kasd ipsum. Dolor ea et
-                        dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea
-                        et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore
-                        sanctus sed et. Takimata takimata sanctus sed.</p>
-                    <div class="d-flex align-items-center mt-2 wow zoomIn">
-                        <div class=" d-flex align-items-center justify-content-center rounded"
-                            style="width: 35px; height: 35px; background-color: #ff4d00;">
+                    <p class="mb-4 animation" style="font-size: 19px; line-height: 1.3;">
+                        Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.
+                    </p>
+                    <div class="d-flex align-items-center mt-2 animation">
+                        <div class="d-flex align-items-center justify-content-center rounded"
+                            style="width: 40px; height: 53px; background-color: #ff4d00;">
                             <i class="fa-solid fa-phone text-white"></i>
                         </div>
-                        <div class="ps-3">
+                        <div class="ps-3 animation" style="margin-top: 30px;">
                             <h5 class="mb-2" style="font-size: 15px;"><b>Call to ask any question</b></h5>
                             <h4 class="fw-bold" style="font-size: 15px; color: #ff4d00;">+91 9767 74 37 83</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div class="rounded d-flex align-items-center p-5">
+                    <div class="rounded d-flex align-items-center p-5 animation">
                         <img src="assets/images/happy-women.png" class="img-fluid responsive-img" alt="Image Not Found">
                     </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Testimonial -->
-    
-    <div class="container-fluid" style="margin-top: -50px;">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto">
-                <h2 class="fw-bold display-5 my-4"
-                    style="color: #ff4d00; font-weight: 600; font-size: 30px; margin-bottom: -30px;">
-                    Testimonial</h2>
-                <h2 class="mb-0">Catch the Latest Reviews and <br>Updates on Our Blog!</h2>
-                
-                    <div class="center-box" style="width: 13%; text-align: center; margin-top: 12px; background-color: #ff4d00;">
-                        <div class="motion-line"> </div>
-                    </div>
-               
-            </div>
-            <div class="row g-5">
-                <!-- Video 1 -->
-                <div class="col-lg-4 col-md">
-                    <div class="blog-item rounded overflow-hidden shadow" style="background-color: rgb(255, 255, 255);">
-                        <div class="blog-img overflow-hidden">
-                            <iframe class="img-fluid w-100" src="https://www.youtube.com/embed/_7yJFVWVE8A"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen=""></iframe>
-                        </div>
-                        <div class="p-4">
-                            <h4 class="mb-3 fw-bold" style="color:#ff4d00; font-size: 22px;">45-Day Internship in Java</h4>
-                            <p style="font-size: 19px; line-height: 1.3;">
-                                Join our 45-day Java internship to master core Java concepts, build real-world projects,
-                                and gain hands-on experience. Perfect for beginners and aspiring developers!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Video 2 -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-item rounded overflow-hidden shadow" style="background-color: rgb(255, 255, 255);">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <iframe class="img-fluid w-100" src="https://www.youtube.com/embed/czhsktRpDe0"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen=""></iframe>
-                        </div>
-                        <div class="p-4">
-                            <h4 class="mb-3 fw-bold" style="color:#ff4d00; font-size: 22px;">45-Day Internship in Java</h4>
-                            <p style="font-size: 19px; line-height: 1.3;">
-                                Our 45-day Java internship offers <br> in-depth training, mentorship, and project-based
-                                learning to help you kickstart your career in software development.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Video 3 -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-item rounded overflow-hidden shadow" style="background-color: rgb(255, 255, 255);">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <iframe class="img-fluid w-100" src="https://www.youtube.com/embed/OU8yimS3cAs"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen=""></iframe>
-                        </div>
-                        <div class="p-4">
-                            <h4 class="mb-3 fw-bold" style="color:#ff4d00; font-size: 22px;">Importance of Internships</h4>
-                            <p style="font-size: 19px; line-height: 1.3;">
-                                Internships provide real-world experience, enhance skills, and boost employability ,
-                                what is internship , why internship. Start your journey with us today!
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
     
     
+   <!-- Testimonial Section -->
+<div class="container-fluid bg-light">
+    <div class="container py-3">
+        <div class="section-title text-center position-relative pb-3 mx-auto">
+            <h2 class="fw-bold display-5 my-3 animation" style="color: #ff4d00; font-size: 30px; margin-bottom: -30px;">
+                Testimonial</h2>
+            <h2 class="mb-0 animation">Catch the Latest Reviews and <br>Updates on Our Blog!</h2>
+            <div class="center-box" style="width: 13%; text-align: center; margin-top: 12px; background-color: #ff4d00;">
+                <div class="motion-line"></div>
+            </div>
+        </div>
+
+        <div class="row g-5">
+            <!-- Video 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-item rounded overflow-hidden shadow-lg animation bg-white">
+                    <div class="blog-img overflow-hidden">
+                        <iframe class="img-fluid w-100" src="https://www.youtube.com/embed/_7yJFVWVE8A" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen=""></iframe>
+                    </div>
+                    <div class="p-4">
+                        <small class="text-dark fw-bold "><i class="far fa-user me-2"></i>Rutuja Nalawade</small>
+                        <h4 class="mb-3 mt-3 fw-bold" style="color:#ff4d00; font-size: 22px;">45-Day Internship in Java</h4>
+                        <p style="font-size: 19px; line-height: 1.3;">
+                            Join our 45-day Java internship to master core Java concepts, build real-world projects,
+                            and gain hands-on experience. Perfect for beginners and aspiring developers!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-item rounded overflow-hidden shadow-lg animation bg-white">
+                    <div class="blog-img overflow-hidden">
+                        <iframe class="img-fluid w-100" src="https://www.youtube.com/embed/czhsktRpDe0" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen=""></iframe>
+                    </div>
+                    <div class="p-4">
+                        <small class="text-dark me-3 fw-bold"><i class="far fa-user me-2"></i>Shruti Rambhapure</small>
+                        <h4 class="mb-3 mt-3 fw-bold" style="color:#ff4d00; font-size: 22px;">45-Day Internship in Java</h4>
+                        <p style="font-size: 19px; line-height: 1.3;">
+                            Our 45-day Java internship offers in-depth training, mentorship, and project-based
+                            learning to help you kickstart your career in software development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-item rounded overflow-hidden shadow-lg animation bg-white">
+                    <div class="blog-img overflow-hidden">
+                        <iframe class="img-fluid w-100" src="https://www.youtube.com/embed/OU8yimS3cAs" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen=""></iframe>
+                    </div>
+                    <div class="p-4">
+                        <small class="me-3 fw-bold text-dark"><i class="far fa-user me-2"></i>Santosh Dhulgand</small>
+                        <h4 class="fw-bold mt-3" style="color:#ff4d00; font-size: 22px;">Importance of Internships</h4>
+                        <p style="font-size: 19px; line-height: 1.3;">
+                            Gain practical experience and enhance your skills.
+                            Work on real projects,
+                            learn from industry experts and grow with us.
+                            Start your journey to success today! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>

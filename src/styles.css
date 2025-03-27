@@ -10,5 +10,20 @@ html,body{
     -webkit-overflow-scrolling: touch; /* Ensures smooth scrolling on iOS */
 }
 
+@keyframes appear{
+    from{
+        opacity:1;
+        scale:0.5;
+    }
+    to{
+        opacity:5;
+        scale:1;
+    }
+}
   
+.animation{
+    animation:appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% ;
+}
   

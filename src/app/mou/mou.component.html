@@ -1,11 +1,11 @@
 <!-- main box -->
 <div class="container-fluid bg-mou"
-    style=" background: linear-gradient(rgba(78, 79, 79, 0.18), rgba(2, 7, 16, 0.7)), url(assets/images/mou.png) center center no-repeat; background-size: cover;">
+    style=" background: linear-gradient(rgba(21, 21, 21, 0.696), rgba(2, 7, 16, 0.751)), url(assets/images/mou.png) center center no-repeat; background-size: cover;">
     <div class="row py-5">
-        <div class="col-12 pt-lg-5 mt-lg-5 text-center animate__animated animate__fadeIn">
+        <div class="col-12 pt-lg-5 mt-lg-5 text-center">
 
-            <h1 style="line-height: 1.0;">MOU Signed with Colleges</h1>
-            <p style="color: white; font-size: 17px; max-width: 100%;">We are thrilled to announce our Memorandum of
+            <h1 class=" animate__animated animate__zoomIn" style="line-height: 1.0;">MOU Signed with Colleges</h1>
+            <p class="animate__animated animate__fadeInUp" style="color: white; font-size: 17px; max-width: 100%;">We are thrilled to announce our Memorandum of
                 Understanding
                 with top colleges.This collaboration is designed to inspire innovation, enhance learning
                 opportunities,
@@ -18,7 +18,7 @@
 
 <div class="container ">
 
-    <h3 class="fw-bold" style="margin-top: 60px; text-align: center; font-size: 35px; margin-bottom: 50px;">List of
+    <h3 class="fw-bold animation" style="margin-top: 60px; text-align: center; font-size: 35px; margin-bottom: 50px;">List of
         collages we have collaborated</h3>
 
     <div class="center-box"
@@ -33,8 +33,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div *ngFor="let item of mouList; let i = index" class="d-grid gap-2 mt-3">
-                <button class="btn d-flex justify-content-between align-items-center" type="button" (click)="toggleImage(i)">
-                    <span class="text-start">{{ item.title }}</span>
+                <button class="btn d-flex justify-content-between align-items-center animation" type="button" (click)="toggleImage(i)">
+                    <span class="text-start fw-bold">{{ item.title }}</span>
                     <i [class]="activeIndex === i ? 'fa-solid fa-chevron-up' : 'fa-solid fa-chevron-down'"></i>
                 </button>
                 <div class="col-lg-4 col-12 mx-auto img-container">
